@@ -1,0 +1,23 @@
+.used_car a{
+    font-weight: 900;
+    
+}
+.used_car_box{
+    transition: 0.3s;
+    height: 150px;
+}
+.used_car {
+    transition: 0.3s;
+}
+.used_car .col-3 .used_car_box:hover{
+    background-color: rgba(0, 0, 0, 0.647);
+    border-radius: 40px !important;
+    border:solid 3px rgba(240, 54, 54, 0.584) !important;
+    
+}
+.used_car .col-3 .used_car_box:hover a{
+    color: brown!important;
+}
+.used_car .col-3 .used_car_box:hover p{
+    color: rgb(255, 255, 255) !important;
+}

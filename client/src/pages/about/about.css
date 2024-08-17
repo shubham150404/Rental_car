@@ -1,0 +1,61 @@
+.abo_header{
+    height: 550px;
+    width: 100% !important;
+}
+.abo_header img{
+    height: 100%;
+    /* width: 50%; */
+}
+.rea{
+    position: relative;
+    z-index: -1;
+}
+.abu{
+    position: absolute;
+    z-index: 1;
+}
+.abu .abus{
+    font-size: 30px;
+    right: 33%;
+    font-weight: bold;
+}
+.abu .abuss{
+    font-size: 50px;
+    right: 33%;
+    font-weight: bolder;
+}
+.abu .as{
+    font-size: 25px;
+}
+.full_body_color{
+    background-color: rgba(206, 144, 64, 0.686);
+}
+.box_img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.make_box:hover{
+    border-color: brown !important;
+    background-color:gray;
+    color: aliceblue;
+    border-radius: 50px !important;
+}
+.make_box:hover h5{
+    color: brown !important ;
+}
+.make_box:hover h6{
+    color: brown !important ;
+}
+.make_box{
+    transition: 0.3s;
+}
+.make_box .fs-1{
+    color: black;
+}
+.details_table{
+    background-color: rgba(128, 128, 128, 0.656);
+}
+.about-top{
+    margin-top: 100px;
+}

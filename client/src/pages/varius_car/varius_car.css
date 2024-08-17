@@ -1,0 +1,142 @@
+.abbu{
+    position: absolute;
+    z-index: 1;
+}
+.reala{
+    position: relative;
+    z-index: -1;
+}
+.var_left{
+    width: 300px;
+    position: absolute;
+    right: 260px;
+    top: 230px;
+
+}
+.var_right{
+    width: 250px;
+    left: 320px;
+    position: absolute;
+    top: 200px;
+}
+.varius_type_body{
+    transition: 0.3s;
+    border-radius: 10px;
+    height: 180px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 2px 2px 10px;
+    border: solid 1px red;
+    
+}
+.varius_type_body:hover{
+    border: solid 3px black;    
+    color: rgb(238, 61, 61);
+    border-radius: 40px;
+}
+.varius_body{
+    transition-timing-function: ease-in-out;
+    position: relative;
+    left: 20px;
+    height: 400px;
+    width: 150px;
+    padding: 25px;
+    border-radius: 70px 70px ;
+    background-color: antiquewhite;
+}
+.varius_heard{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 50%;
+    justify-content: center;
+}
+.varius_heard img{
+    height: 50px;
+}
+.varius_botom{
+    display: inline-block;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.varius_botom img{
+    width :100%;
+    height: 100%;
+}
+
+.thar_set{
+    height: 80px !important;
+    width: 230px !important;
+    padding-right: 50px !important;
+}
+.varius_botom {
+    width: 250px !important;
+}
+.super_car{
+    width: 100% !important;
+    height: 55px !important;
+    padding-right: 50px !important;
+}
+.family_car {
+    width: 100%;
+    padding-right: 40px;
+}
+.hee
+{
+    transition: 1s;
+}
+.he{
+    transition: 1s;
+}
+.hee:hover .he
+{
+    padding-left:50px !important ;
+    padding-right: 0px !important;
+    /* width: 10% !important; */
+    transition: 1s;
+}
+.ex_txt p{
+    font-size: 12px;
+}
+.ex_txt h5{
+    font-weight: bolder;
+}
+.his::after
+{
+    content:'';
+    display: block;
+    width: 0%;
+    height: 5px;
+    background-color: rgb(231, 68, 68);
+    transition: 0.5s;
+}
+
+.his:hover::after
+{
+    width: 400px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.popular_heard{
+    width: 250px;
+}
+.popular_body{
+    transition: 5s;
+}
+.popular_body:hover{
+    padding-left: 100px;
+}
+.var_propular_car{
+    width: 200px; ;
+}
+.vrf2{
+    background-color: #f2f2f2;
+}
+.exf{
+    background-color: white;
+    box-shadow: 2px 2px 10px;
+}

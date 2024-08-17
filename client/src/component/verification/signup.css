@@ -1,0 +1,140 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #f2f2f2;
+    padding-bottom: 30px;
+    width: 400px ;
+    height: 400px;
+    border-radius: 20px;
+    position: relative;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    margin-top: 30px;
+}
+.text{
+    color: #3c009d;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.underlines{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    background:#3c009d;
+    border-radius: 9px;
+}
+.inputs {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 250px;
+    height: 40px;
+    background-color: #eaeaea;
+    border-radius: 6px;
+}
+
+.input img{
+    margin: 0px 10px;
+}
+
+.input input{
+    height: 20px;
+    width: 200px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 13px;
+}
+.forgot-password{
+    
+    margin-top:5px;
+    color: #797979;
+    font-size: 12px;
+}
+.forgot-password{
+    color: #4c00b4;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+.submit a{
+    justify-content: center !important;
+    /* margin: 60px auto; */
+}
+.submit{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor:pointer;
+    margin: auto;
+    
+}
+.login_{
+    font-size: 15px;
+    position: absolute;
+    bottom: 20 ;
+    left: -10px;
+}
+.signup .close_icon {
+    font-size: 30px;
+    position: absolute;
+    top: -20px ;
+    right: -10px; 
+    
+}
+.close_icon .clos_icon{
+    border-radius: 50%;
+    background-color: black;
+}
+
+.bgwrap{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(189, 189, 189, 0.63);
+    z-index: 2;
+}
+.signup_fixing{
+    position: fixed;
+    z-index: 999;
+    bottom: 50px;
+    left: 200px;
+    top: 300px;
+    right: -150px;
+    transform: translate(-50%,-50%);
+    max-width:400px ;
+}
+.sign{
+    display: none;
+}
+.show-user{
+    display: block;
+}
+
+
+
+

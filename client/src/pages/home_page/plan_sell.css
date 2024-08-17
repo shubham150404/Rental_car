@@ -1,0 +1,11 @@
+.bold{
+    font-weight: bold;
+}
+.double img{
+    height: 40px;
+    width: 53px;
+}
+.p2-box{
+    padding-left: 50px;
+    width: 50%;
+}

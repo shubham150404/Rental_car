@@ -1,0 +1,20 @@
+.explore{
+    background-color: black;
+}
+.box_icon{
+    height: 30px;
+    width: 30px;
+    background-color: gray;
+}
+.box_icon a{
+    padding-left: 6px;
+}
+.explore{
+    padding-top: 50px;
+}
+.seticon_of_ex{
+    height: 20px;
+    width: 20px;
+    
+}   
+
